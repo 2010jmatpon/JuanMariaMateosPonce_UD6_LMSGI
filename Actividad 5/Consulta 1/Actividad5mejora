@@ -1,0 +1,11 @@
+insert node
+<baile id="7">
+<nombre>Cumbia</nombre>
+<precio cuota= "mensual" moneda= "pesos">1200</precio>
+<plazas>10</plazas>
+<comienzo>20/04/2023</comienzo>
+<fin>04/09/2013</fin>
+<profesor>Sergio Agüero</profesor>
+<sala>2</sala>
+</baile>
+before doc("DB_BailesDeSalon.xml")//Bailes/baile[1]

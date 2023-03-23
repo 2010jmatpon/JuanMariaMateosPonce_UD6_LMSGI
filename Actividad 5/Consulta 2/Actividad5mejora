@@ -1,0 +1,3 @@
+replace value of node
+doc("DB_BailesDeSalon.xml")//Bailes/baile[1]/profesor
+with "Juan Román Riquelme"

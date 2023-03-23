@@ -1,0 +1,20 @@
+insert node
+<libro>
+<Cod_Libro>10</Cod_Libro>
+<Titulo>Geronimo Stilton: Primer Viaje al Reino de La Fantasía</Titulo>
+<Editorial>Planeta</Editorial>
+<Edicion>2</Edicion>
+<ISBN>Bartolito</ISBN>
+<NumPaginas>496</NumPaginas>
+<Autores>
+<autor>
+<Cod_Autor>11</Cod_Autor>
+<Nombre>Geronimo</Nombre>
+<Apellidos>Stilton</Apellidos>
+<FechaNacimiento>16/06/1995</FechaNacimiento>
+<Nacionalidad>EstadoUnidense</Nacionalidad>
+</autor>
+</Autores>
+</libro>
+before doc("BD_Libros.xml")//Libros/libro[1]
+
